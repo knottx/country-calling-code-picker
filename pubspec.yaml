@@ -1,5 +1,4 @@
 name: country_calling_code_picker
-publish_to: none
 description: Flexible Country picker for getting Country code and Calling code.
 version: 2.0.1
 homepage: https://github.com/dev-naiksan/country-calling-code-picker.git
@@ -10,10 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_sim_country_code: ^0.1.1
+
+dependency_overrides:
   flutter_sim_country_code:
     git:
       url: https://github.com/knottx/flutter_sim_country_code.git
-
 
 dev_dependencies:
   flutter_test:
